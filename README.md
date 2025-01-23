@@ -31,7 +31,7 @@ This tool uses `nslookup` and `whois` command-line utilities:
   On Linux/Mac, you can install whois via the package manager:
   Ubuntu/Debian: sudo apt-get install whois
   Mac: brew install whois
-  ```bash
+  ```
 
 Supported Commands:
 A Record: Displays the IP address associated with a domain.
