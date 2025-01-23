@@ -1,14 +1,14 @@
 # DNS-Digger
 
 DNS-Digger is a simple command-line tool for performing DNS record lookups. It can fetch the following DNS records:
-- A (Address) Record
-- MX (Mail Exchange) Record
-- TXT (Text) Record
-- NS (Name Server) Record
-- DMARC (Domain-based Message Authentication, Reporting, and Conformance)
-- SPF (Sender Policy Framework)
-- DNSSEC (DNS Security Extensions)
-- WHOIS Information
+- **A Record**: Displays the IP address associated with a domain.
+- **MX Record**: Shows the mail servers for the domain.
+- **TXT Record**: Retrieves the domain's TXT records.
+- **NS Record**: Shows the domain's name servers.
+- **DMARC**: Checks the DMARC record for the domain.
+- **SPF**: Checks the SPF record for the domain.
+- **DNSSEC**: Verifies DNSSEC status for the domain.
+- **WHOIS**: Retrieves WHOIS information about the domain.
 
 ## Features:
 - Fetch DNS records for a domain.
@@ -46,16 +46,6 @@ This tool uses `nslookup` and `whois` command-line utilities:
    ```
 
    You will be prompted to enter a domain name, and the script will return the requested DNS records and WHOIS information.
-
-## Supported Commands:
-- **A Record**: Displays the IP address associated with a domain.
-- **MX Record**: Shows the mail servers for the domain.
-- **TXT Record**: Retrieves the domain's TXT records.
-- **NS Record**: Shows the domain's name servers.
-- **DMARC**: Checks the DMARC record for the domain.
-- **SPF**: Checks the SPF record for the domain.
-- **DNSSEC**: Verifies DNSSEC status for the domain.
-- **WHOIS**: Retrieves WHOIS information about the domain.
 
 ## Contributing:
 Feel free to fork the project, create a pull request, or open issues for any feature requests or bugs. Contributions are always welcome!
