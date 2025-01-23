@@ -1,20 +1,23 @@
 @echo off
 
-echo ===============================
-echo Welcome to the DNS Lookup Tool
-echo          Emen Mousavi
-echo ===============================
-echo 1. A Record
-echo 2. MX Record
-echo 3. TXT Record
-echo 4. CNAME Record
-echo 5. NS Record
-echo 6. DMARC Record
-echo 7. SPF Record
-echo 8. WHOIS Lookup
-echo 9. DNSSEC Checker
-echo ================================
-set /p option=Choose a record type (1-5): 
+echo.
+echo ============================================
+echo            DNS Digger - Emen Mousavi
+echo ============================================
+echo.
+echo 1. A Record        - Get the IP Address
+echo 2. MX Record       - Get Mail Servers
+echo 3. TXT Record      - Get TXT Data
+echo 4. CNAME Record    - Get Canonical Name
+echo 5. NS Record       - Get Name Servers
+echo 6. DMARC Record    - Get DMARC Information
+echo 7. SPF Record      - Get SPF Information
+echo 8. WHOIS Lookup    - Get WHOIS Information
+echo 9. DNSSEC Checker  - Check DNSSEC Status
+echo ============================================
+echo.
+
+set /p option=Choose a record type (1-9):
 
 :: Get domain input from user
 set /p domain=Enter domain for DNS lookup (e.g., example.com): 
