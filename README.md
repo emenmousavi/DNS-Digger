@@ -25,13 +25,13 @@ This tool uses `nslookup` and `whois` command-line utilities:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/DNS-Digger.git
+   ```bash
 2. Make sure nslookup and whois are installed and available in your system's PATH.
 3. If you're using whois, make sure to download the appropriate executable for your platform:
   Whois for Windows
   On Linux/Mac, you can install whois via the package manager:
   Ubuntu/Debian: sudo apt-get install whois
   Mac: brew install whois
-  ```
 
 Supported Commands:
 A Record: Displays the IP address associated with a domain.
