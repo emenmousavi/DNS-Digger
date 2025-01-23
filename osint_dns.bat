@@ -1,7 +1,5 @@
 @echo off
-:: Simple batch script for DNS records using nslookup
 
-:: Display options to the user
 echo ===============================
 echo Welcome to the DNS Lookup Tool
 echo          Emen Mousavi
